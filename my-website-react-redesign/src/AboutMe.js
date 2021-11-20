@@ -6,14 +6,15 @@ const bio = {
 	second: "I am always learning new technologies as well as trying to improve my skills with the tech I already know. The process of designing software and then expanding and optimizing it is one of my strongest loves. When I'm not coding, I'm thinking about coding!",
 };
 
-function AboutMe (bio) {
+function AboutMe = ({ bio }) => {
+	
 	return (
-		<div className="about-me">
-			<h2>{bio.about.toUpperCase()}</h2>
-			<p>{bio.first}</p>
-			<p>{bio.second}</p>
+		<div>
+			<h2>{about.toUpperCase()}</h2>
+			<p>{first}</p>
+			<p>{second}</p>
 		</div>
-		)
-}
+		);
+};
 
-export default AboutMe;
+export default function AboutMe;
