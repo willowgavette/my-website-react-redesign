@@ -1,0 +1,118 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: ##D3D3D3;
+  font-family: Helvetica;
+  width: 100vw;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Lucida Console, monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px #808080;
+  font-size: 50px;
+  transition: background-color 1s linear;
+}
+
+h2 {
+  text-align: center;
+  font-family: Lucida Console, monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 2px solid dimgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px #808080;
+
+}
+h3 {
+  text-align: center;
+  font-family: Lucida Console, monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid dimgray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px #808080;
+
+}
+h4 {
+  text-align: center;
+  font-family: Lucida Console, monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-shadow: 1px 1px #808080;
+}
+
+figure {
+  max-width: 30%;
+}
+
+img {
+  border: 4px solid black;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bio {
+  font-size: 18px;
+  max-width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact {
+  max-width: 35%;
+}
+
+.quals {
+  font-size: 18px;
+  min-width: 100%;
+}
+
+header {
+  min-width: 100%;
+}
+
+footer {
+  min-width: 100%;
+}
+
+@media screen and (max-width: 481px) {
+
+  .bio {
+    max-width: 100%;
+  }
+
+  .contact {
+    max-width: 100%;
+  }
+}
