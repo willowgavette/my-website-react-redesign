@@ -23,9 +23,9 @@ function AboutMe () {
   };
   return (
     <div>
-    <h2>{bio.about.toUpperCase()}</h2>
-    <p>{bio.first}</p>
-    <p>{bio.second}</p>
+      <h2>{bio.about.toUpperCase()}</h2>
+      <p>{bio.first}</p>
+      <p>{bio.second}</p>
     </div>
     );
 };
