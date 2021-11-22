@@ -1,16 +1,14 @@
 import './index.css';
+import data from './info.json';
 
 function App() {
-
+let { name, title } = data;
   return (
     <div className="header">
     <header>
-    <h1>WILLOW GAVETTE</h1>
-    <h2>Full-Stack Software Engineer</h2>
+    <h1>{name}</h1>
+    <h2>{title}</h2>
     </header>
-
-    <AboutMe />
-
     </div>
     );
 };

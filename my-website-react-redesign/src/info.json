@@ -1,0 +1,29 @@
+{
+	"name": "Willow Gavette",
+	"title": "Full-Stack Software Developer",
+	"about": {
+		"firstDesc": "Hi, I'm Willow! I'm a full-stack software engineer who is passionate about programming, code optimization, and algorithm design. I'm focused, driven, detail-oriented, and one of the hardest workers you'll ever meet. In my spare time, I enjoy going to the gym, reading, and converting an old Uhaul box truck into a camper!",
+		"secondDesc": "I am always learning new technologies as well as trying to improve my skills with the tech I already know. The process of designing software and then expanding and optimizing it is one of my strongest loves. When I'm not coding, I'm thinking about coding!"
+	},
+	"links": {
+		"github": "https://github.com/willowgavette",
+		"djangoApp": "https://wlw-reading-list.herokuapp.com/",
+		"linkedIn": "https://www.linkedin.com/in/willowgavette789/"
+	},
+	"contact": {
+		"tel": "+01-503-820-9509",
+		"email": "zoey.m.gavette@gmail.com"
+	},
+	"quals": {
+		"langs": ["Python", "JavaScript", "C++"],
+		"frameworks": ["React.js", "Django"],
+		"markups": ["HTML5", "CSS3"],
+		"envs": ["Linux", "Windows"]
+	},
+	"education": {
+		"as": "Graduated from Portland Community College in 2014 with an Associate's Degree in Computer Science",
+		"bs": "Graduated University of Oregon in 2020 with a Bachelor's of Science in Psychology"
+	},
+	"thanks": "Thanks for checking out my page!",
+	"cred": "This page was built with React.js."
+}
