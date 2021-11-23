@@ -6,7 +6,7 @@
 		"secondDesc": "I am always learning new technologies as well as trying to improve my skills with the tech I already know. The process of designing software and then expanding and optimizing it is one of my strongest loves. When I'm not coding, I'm thinking about coding!"
 	},
 	"links": {
-		"github": "https://github.com/willowgavette",
+		"gitHub": "https://github.com/willowgavette",
 		"djangoApp": "https://wlw-reading-list.herokuapp.com/",
 		"linkedIn": "https://www.linkedin.com/in/willowgavette789/"
 	},
@@ -15,10 +15,23 @@
 		"email": "zoey.m.gavette@gmail.com"
 	},
 	"quals": {
-		"langs": ["Python", "JavaScript", "C++"],
-		"frameworks": ["React.js", "Django"],
-		"markups": ["HTML5", "CSS3"],
-		"envs": ["Linux", "Windows"]
+		"langs": [
+			"Python",
+			"JavaScript",
+			"C++"
+		],
+		"frameworks": [
+			"React.js",
+			"Django"
+		],
+		"markups": [
+			"HTML5",
+			"CSS3"
+		],
+		"envs": [
+			"Linux",
+			"Windows"
+		]
 	},
 	"education": {
 		"as": "Graduated from Portland Community College in 2014 with an Associate's Degree in Computer Science",

@@ -1,31 +1,40 @@
 import './index.css';
 import data from './info.json';
 
-function App() {
-let { name, title } = data;
+function App () {
+  let { name, title } = data;
   return (
+    <>
     <div className="header">
     <header>
     <h1>{name}</h1>
     <h2>{title}</h2>
     </header>
     </div>
+
+    <AboutMe />
+    </>
     );
 };
 
 function AboutMe () {
-  const bio = {
-    about: "about me",
-    first: "Hi, I'm Willow! I'm a full-stack software engineer who is passionate about programming, code optimization, and algorithm design. I'm focused, driven, detail-oriented, and one of the hardest workers you'll ever meet. In my spare time, I enjoy going to the gym, reading, and converting an old Uhaul box truck into a camper!",
-    second: "I am always learning new technologies as well as trying to improve my skills with the tech I already know. The process of designing software and then expanding and optimizing it is one of my strongest loves. When I'm not coding, I'm thinking about coding!",
-  };
+  let {about: {firstDesc, secondDesc}} = data;
   return (
     <div>
-      <h2>{bio.about.toUpperCase()}</h2>
-      <p>{bio.first}</p>
-      <p>{bio.second}</p>
+      <h2>ABOUT ME</h2>
+      <p>{firstDesc}</p>
+      <p>{secondDesc}</p>
+
+      <Links />
     </div>
     );
 };
+
+function Links () {
+  let {links: {gitHub, djangoApp, linkedIn}} = data;
+  return (
+    {links.map(link, i) => (
+      <h2><a key={i} href={link}>My {i}</a></h2>))
+}
 
 export default App;
