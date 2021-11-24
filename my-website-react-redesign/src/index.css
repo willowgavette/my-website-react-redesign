@@ -89,6 +89,11 @@ main {
   justify-content: center;
 }
 
+.sides {
+  display: flex;
+  flex-direction: row;
+}
+
 .contact {
   max-width: 35%;
 }
