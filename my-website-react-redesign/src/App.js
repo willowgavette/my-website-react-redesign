@@ -15,8 +15,6 @@ function App () {
 
     <SideBySide />
 
-    <Links />
-
     <Quals />
 
     <Footer />
@@ -25,12 +23,18 @@ function App () {
 };
 
 function AboutMe () {
-  let {about: {firstDesc, secondDesc}} = data;
+  let {
+    about: {firstDesc, secondDesc},
+    links: {gitHub, djangoApp, linkedIn}
+  } = data;
   return (
     <div className="bio">
     <h2>ABOUT ME</h2>
     <p>{firstDesc}</p>
     <p>{secondDesc}</p>
+    <h2><a href={gitHub}>My GitHub Portfolio</a></h2>
+<h2><a href={djangoApp}>My Django Reading List app</a></h2>
+<h2><a href={linkedIn}>My LinkedIn</a></h2>
     </div>
     );
 };
@@ -42,19 +46,6 @@ function SideBySide () {
     <Contact />
     </div>
     );
-};
-
-function Links () {
-  let {links: {gitHub, djangoApp, linkedIn}} = data;
-  return (
-//     {links.map(link, i) => (
-//       <h2><a key={i} href={link}>blah</a></h2>))
-// }
-<><h2><a href={gitHub}>My GitHub Portfolio</a></h2>
-<h2><a href={djangoApp}>My Django Reading List app</a></h2>
-<h2><a href={linkedIn}>My LinkedIn</a></h2>
-</>
-);
 };
 
 function Contact () {
