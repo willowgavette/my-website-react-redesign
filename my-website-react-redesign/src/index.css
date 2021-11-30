@@ -121,3 +121,13 @@ footer {
     max-width: 100%;
   }
 }
+
+.container {
+  height: auto;
+  padding: 20px;
+
+  background: #83a4d4;
+  background:  linear-gradient(to top, #b6fbff, #83a4d4);
+
+  color:  #171212;
+}

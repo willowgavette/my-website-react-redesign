@@ -6,21 +6,30 @@ function App () {
   let { name, title } = data;
   return (
     <>
-    <div className="header">
-    <header>
-    <h1>{name}</h1>
-    <h2>{title}</h2>
-    </header>
-    </div>
+    <div className="container">
+    <Header />
 
     <SideBySide />
 
     <Quals />
 
     <Footer />
+    </div>
     </>
     );
 };
+
+function Header () {
+  let { name, title } = data;
+  return(
+    <div className="header">
+    <header>
+    <h1>{name}</h1>
+    <h2>{title}</h2>
+    </header>
+    </div>
+    )
+}
 
 function AboutMe () {
   let {
@@ -68,8 +77,9 @@ function Quals () {
         <p><b>- Python</b></p>
         <p><b>- JavaScript</b></p>
         <p><b>- C++</b></p>
-        <h3>Web Frameworks</h3>
+        <h3>Frameworks</h3>
         <p><b>- Django</b></p>
+        <p><b>- React.js</b></p>
         <h3>Markup Languages</h3>
         <p><b>- HTML5</b></p>
         <p><b>- CSS3</b></p>
